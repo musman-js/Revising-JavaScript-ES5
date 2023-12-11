@@ -64,3 +64,18 @@ else {
 
 
 
+
+// localStorage practice
+let sendValue = () => {
+    const name = document.getElementById('name');
+    const email = document.getElementById('email');
+    // console.log(name ,email)
+    let obj = {
+        name : name.value ,
+        email : email.value
+    }
+
+    localStorage.setItem("name" , JSON.stringify(obj))
+}
+
+
