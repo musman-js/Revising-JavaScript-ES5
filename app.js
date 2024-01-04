@@ -130,3 +130,50 @@
 //     const image = document.getElementById('image');
 //     image.style.width = "100px"
 // }
+
+
+
+
+// const num = 40;
+// const num2 = 30;
+// if (num === num2) {
+//     alert("You are a stupiud");
+// }
+// else {
+//     alert('You are a genius')
+// }
+
+
+
+
+
+// ==========DOM PRACICE===========
+// let generate = () => {
+//     const input = document.getElementById('input');
+
+//     // Generate Element
+//     let list = document.createElement("li");
+//     let listText = document.createTextNode(input.value);
+//     list.appendChild(listText);
+
+
+//     // Generate the input on sceeen
+//     const ulList = document.getElementById("ulList");
+//     ulList.appendChild(list);
+//     input.value = ""
+
+// }
+
+// // DeleteAll
+// let del = ()=> {
+//     const ulList = document.getElementById("ulList")
+//     ulList.innerHTML = ""
+    
+// }
+    
+
+
+
+
+
+
