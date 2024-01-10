@@ -174,17 +174,17 @@
 
 
 
-const player1 = prompt("Enter player 1 name");
-const player2 = prompt("Enter player 2 name");
+// const player1 = prompt("Enter player 1 name");
+// const player2 = prompt("Enter player 2 name");
 
-let num = Math.random()
-console.log(num)
-
-if(num == 1){
-    alert(`${player1} win`)
-}
-else{
-    alert(`${player2} win`)
-}
+// let num = Math.random()*1
+// let mainNum = Math.round(num)
+// // console.log(mainNum)
+// if(mainNum == 1){
+//     alert(`${player1} win`)
+// }
+// else{
+//     alert(`${player2} win`)
+// }
 
     
