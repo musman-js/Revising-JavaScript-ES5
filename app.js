@@ -168,9 +168,9 @@
 // let del = ()=> {
 //     const ulList = document.getElementById("ulList")
 //     ulList.innerHTML = ""
-    
+
 // }
-    
+
 
 
 
@@ -187,4 +187,18 @@
 //     alert(`${player2} win`)
 // }
 
-    
+
+
+// const arr = ['Karachi', "Lahore", "Islamabad", "Multan"];
+
+// console.log(arr.slice(0 , 2));
+
+
+// const arr2 = [ "Karachi" , "Lahore " , "Multan" , "Islamabad"];
+// // let push = arr2.push("Usman")
+// // let unshift = arr2.unshift("ammar")
+// // let  pop = arr2.pop();
+// // let shift  = arr2.shift()
+
+// // let splice =  arr2.splice(1 , "Usman    ")
+// console.log(arr2)
