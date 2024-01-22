@@ -202,3 +202,15 @@
 
 // // let splice =  arr2.splice(1 , "Usman    ")
 // console.log(arr2)
+
+
+// const name  = "MUhammad Usman"
+// const lastName  =  "Khan"
+
+// console.log(`${name} ${lastName}`)
+
+// let arr  =  ["Karachi" ,  "Peshawar" , 
+// "lahore"
+// ]
+// let splice = arr.splice(0,1)
+// console.log(arr)
