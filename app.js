@@ -214,3 +214,49 @@
 // ]
 // let splice = arr.splice(0,1)
 // console.log(arr)
+
+
+
+// const obj = {
+//     name: "Muhammad Usman Khan" , 
+//     age  : 16 , 
+
+// }
+
+// console.log(obj.name);
+
+// let arr  = [
+//     question = {
+//         ques1 : "What is your name" 
+//     },
+//     answer = {
+//       answer  :  "Muhammad Usman Khan"
+//     }
+// ]
+
+// console.log(arr[0].ques1);
+// console.log(arr[1].answer);
+
+
+
+// let obj = {
+//     name  : "Muhammad Usman",
+//     age :  16 , 
+//     obj2 : {
+//         email : "usman2037966@gmail.com" , 
+//         phone : "Tecno Pova 2",
+//         obj3 : {
+//             address : "C-34 Uk-Square"
+//         }
+//     }    
+// }
+
+// console.log(obj.obj2.obj3.address);
+// let name =  () => {
+//     const name  = "Muhammad Usman" ;
+//     const age  = 16
+//      let nameAge =  name +  age ;
+//      return nameAge
+// }
+
+// console.log(name());
