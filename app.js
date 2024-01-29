@@ -260,3 +260,17 @@
 // }
 
 // console.log(name());
+
+// let flutter = ["Anothercourse"]
+// let future =  "Sami se ziada well settled hona he ";
+
+// for(let i = 0 ; i<=12 ; i++){
+//     console.log(flutter[i]);
+// }
+
+// if(0 === 1) {
+//     console.log("success");
+// }
+// else{
+//     console.log("fail");
+// }
