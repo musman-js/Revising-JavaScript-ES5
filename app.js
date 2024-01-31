@@ -274,3 +274,17 @@
 // else{
 //     console.log("fail");
 // }
+
+
+let usman = () => {
+ 
+let name = prompt("Enter Name");
+
+let obj = {
+    name : name.value
+}
+
+localStorage.setItem("name" , JSON.stringify(obj))
+
+}
+usman()
