@@ -276,15 +276,16 @@
 // }
 
 
-let usman = () => {
- 
-let name = prompt("Enter Name");
 
-let obj = {
-    name : name.value
-}
+// let getValue=()=> {
+//     const input = document.getElementById('input');
+//     let obj=  {
+//         name : input.value
+// }
+// localStorage.setItem("name" , JSON.stringify(obj))
 
-localStorage.setItem("name" , JSON.stringify(obj))
+// let value = localStorage.getItem("name")
 
-}
-usman()
+// let string = JSON.parse(value)
+// document.write(value)
+// } 
