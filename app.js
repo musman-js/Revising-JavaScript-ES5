@@ -289,3 +289,32 @@
 // let string = JSON.parse(value)
 // document.write(value)
 // } 
+
+
+
+// let input =  document.getElementById("input");
+// let currentValue = '';
+
+//  // Printing Input 
+// let calculation = (value) => {
+//  currentValue += value
+//  input.value = currentValue
+// }
+
+// // clearing the screen
+// let clearAll = () => {
+//     currentValue = ""
+//     input.value = currentValue
+// }
+
+// let result = () =>  {
+ 
+//     try{
+//         currentValue = eval(currentValue)
+//         input.value = currentValue
+//     }
+//     catch{
+//         input.value = "Errror"
+//     }
+// }
+
