@@ -320,13 +320,13 @@
 
 
 const questions = [
-    queston1 = {
+   {
           question: "HTML stands for" ,
           option1 : "Htyper Text Markup Language" ,
           option2 : "hyper Text Markup Language" ,
           option3 : "Hyper Text Markup Language"
     },
-    queston2 = {
+    {
         question: "CSS stands for" ,
         option1 : "Cascading Style Sheets" ,
         option2 : "Cascade Style sheet" ,
@@ -334,3 +334,29 @@ const questions = [
     }
 ]
 
+let question = document.getElementById("question");
+let option1  = document.getElementById("option1");
+let option2  = document.getElementById("option2");
+let option3  = document.getElementById("option3");
+let button = document.getElementById("button")
+let index = 0
+
+let nextQuestions = () => {
+
+    let getOption  = document.getElementsByName("option")
+    // console.log(getOption);
+
+    // for(let i = 0; i<=getOption.length; i++){
+    //     if(getOption[i].checked){
+    //         let selectedValue = getOption[i].value
+    //         console.log(selectedValue);
+    //     }
+    // }
+
+    //priting questions
+    question.innerHTML = questions[index].question
+    option1.innerHTML = questions[index].option1
+    option2.innerHTML = questions[index].option2
+    option3.innerHTML = questions[index].option3
+
+}

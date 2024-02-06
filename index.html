@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body onload="nextQuestions()">
 
     <!-- <input id="name" type="text" placeholder="Enter name"> <br> <br>
     <input id="email" type="email" placeholder="Enter email"> <br> <br>
@@ -67,6 +67,15 @@
     </div>
  </div> -->
 
+
+ <p id="question"></p>
+ <input name="option" type="radio" value = "1">
+<label id="option1"></label>  <br>
+<input name="option" type="radio" value="2">
+<label id="option2"></label>  <br>
+<input name="option" type="radio">
+<label id="option3"></label> <br> <br>
+<button  id="button">next</button>
 
     <script src="app.js"></script>
 </body>
