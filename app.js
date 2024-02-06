@@ -318,3 +318,19 @@
 //     }
 // }
 
+
+const questions = [
+    queston1 = {
+          question: "HTML stands for" ,
+          option1 : "Htyper Text Markup Language" ,
+          option2 : "hyper Text Markup Language" ,
+          option3 : "Hyper Text Markup Language"
+    },
+    queston2 = {
+        question: "CSS stands for" ,
+        option1 : "Cascading Style Sheets" ,
+        option2 : "Cascade Style sheet" ,
+        option3 : "Cascade Styles Sheets"
+    }
+]
+
