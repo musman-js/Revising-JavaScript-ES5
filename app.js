@@ -341,22 +341,32 @@ let option3  = document.getElementById("option3");
 let button = document.getElementById("button")
 let index = 0
 
-let nextQuestions = () => {
+let nextQuestions = () => { 
 
-    let getOption  = document.getElementsByName("option")
-    // console.log(getOption);
+    let getOption = document.getElementsByName("options");
 
-    // for(let i = 0; i<=getOption.length; i++){
-    //     if(getOption[i].checked){
-    //         let selectedValue = getOption[i].value
-    //         console.log(selectedValue);
-    //     }
-    // }
+  for(let i = 0 ; i<getOption.length; i++){
+    if(getOption[i].checked){
 
-    //priting questions
-    question.innerHTML = questions[index].question
-    option1.innerHTML = questions[index].option1
-    option2.innerHTML = questions[index].option2
-    option3.innerHTML = questions[index].option3
 
+        // ======Getting the selected answer======
+    
+
+
+        // =======The Correct answer is=====
+
+
+
+        // ====Condition for cheking the correct answer======
+       
+    }
 }
+ //priting questions
+ question.innerHTML = questions[index].question
+ option1.innerHTML = questions[index].option1
+ option2.innerHTML = questions[index].option2
+ option3.innerHTML = questions[index].option3
+ index++
+ }
+ 
+
