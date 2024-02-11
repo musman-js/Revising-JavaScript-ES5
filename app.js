@@ -319,18 +319,20 @@
 // }
 
 
-const questions = [
+let questions = [
    {
           question: "HTML stands for" ,
           option1 : "Htyper Text Markup Language" ,
           option2 : "hyper Text Markup Language" ,
-          option3 : "Hyper Text Markup Language"
+          option3 : "Hyper Text Markup Language", 
+          correctAns : "Hyper Text Markup Language"
     },
     {
         question: "CSS stands for" ,
         option1 : "Cascading Style Sheets" ,
         option2 : "Cascade Style sheet" ,
-        option3 : "Cascade Styles Sheets"
+        option3 : "Cascade Styles Sheets" ,
+        correctAns : "Cascading Style Sheets"
     }
 ]
 
@@ -339,28 +341,42 @@ let option1  = document.getElementById("option1");
 let option2  = document.getElementById("option2");
 let option3  = document.getElementById("option3");
 let button = document.getElementById("button")
-let index = 0
+let index = 0;
+let score = 0;
 
 let nextQuestions = () => { 
 
-    let getOption = document.getElementsByName("options");
+    let getOption = document.getElementsByName("option");
 
   for(let i = 0 ; i<getOption.length; i++){
+
     if(getOption[i].checked){
-
-
-        // ======Getting the selected answer======
-    
-
-
-        // =======The Correct answer is=====
-
-
-
-        // ====Condition for cheking the correct answer======
        
+        // getting the selected option value
+        let selectedValue = getOption[i].value
+        // console.log(selectedValue);
+
+        // getting selected Question
+        let selectedQuestion =  questions[index-1]["question"]
+        // console.log(selectedQuestion);
+
+        // getting correct Answer
+        let correctAns = questions[index-1]["correctAns"]
+        // console.log(correctAns);
+
+        //Condition for score
+        if(selectedValue === correctAns){
+            score++
+        }
     }
+    getOption[i].checked = false
 }
+
+//condition for marking score
+if(score> questions.length){
+   let percentage = (score/questions.length)*100;
+}
+
  //priting questions
  question.innerHTML = questions[index].question
  option1.innerHTML = questions[index].option1
