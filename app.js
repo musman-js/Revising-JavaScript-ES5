@@ -319,70 +319,82 @@
 // }
 
 
-let questions = [
-   {
-          question: "HTML stands for" ,
-          option1 : "Htyper Text Markup Language" ,
-          option2 : "hyper Text Markup Language" ,
-          option3 : "Hyper Text Markup Language", 
-          correctAns : "Hyper Text Markup Language"
-    },
-    {
-        question: "CSS stands for" ,
-        option1 : "Cascading Style Sheets" ,
-        option2 : "Cascade Style sheet" ,
-        option3 : "Cascade Styles Sheets" ,
-        correctAns : "Cascading Style Sheets"
-    }
-]
+// let questions = [
+//    {
+//           question: "HTML stands for" ,
+//           option1 : "Htyper Text Markup Language" ,
+//           option2 : "hyper Text Markup Language" ,
+//           option3 : "Hyper Text Markup Language", 
+//           correctAns : "Hyper Text Markup Language"
+//     },
+//     {
+//         question: "CSS stands for" ,
+//         option1 : "Cascading Style Sheets" ,
+//         option2 : "Cascade Style sheet" ,
+//         option3 : "Cascade Styles Sheets" ,
+//         correctAns : "Cascading Style Sheets"
+//     }
+// ]
 
-let question = document.getElementById("question");
-let option1  = document.getElementById("option1");
-let option2  = document.getElementById("option2");
-let option3  = document.getElementById("option3");
-let button = document.getElementById("button")
-let index = 0;
-let score = 0;
+// let question = document.getElementById("question");
+// let option1  = document.getElementById("option1");
+// let option2  = document.getElementById("option2");
+// let option3  = document.getElementById("option3");
+// let button = document.getElementById("button")
+// let index = 0;
+// let score = 0;
 
-let nextQuestions = () => { 
+// let nextQuestions = () => { 
 
-    let getOption = document.getElementsByName("option");
+//     let getOption = document.getElementsByName("option");
 
-  for(let i = 0 ; i<getOption.length; i++){
+//   for(let i = 0 ; i<getOption.length; i++){
 
-    if(getOption[i].checked){
+//     if(getOption[i].checked){
        
-        // getting the selected option value
-        let selectedValue = getOption[i].value
-        // console.log(selectedValue);
+//         // getting the selected option value
+//         let selectedValue = getOption[i].value
+//         // console.log(selectedValue);
 
-        // getting selected Question
-        let selectedQuestion =  questions[index-1]["question"]
-        // console.log(selectedQuestion);
+//         // getting selected Question
+//         let selectedQuestion =  questions[index-1]["question"]
+//         // console.log(selectedQuestion);
 
-        // getting correct Answer
-        let correctAns = questions[index-1]["correctAns"]
-        // console.log(correctAns);
+//         // getting correct Answer
+//         let correctAns = questions[index-1]["correctAns"]
+//         // console.log(correctAns);
 
-        //Condition for score
-        if(selectedValue === correctAns){
-            score++
-        }
-    }
-    getOption[i].checked = false
-}
+//         //Condition for score
+//         if(selectedValue === correctAns){
+//             score++
+//         }
+//     }
+//     getOption[i].checked = false
+// }
 
-//condition for marking score
-if(score> questions.length){
-   let percentage = (score/questions.length)*100;
-}
+// //condition for marking score
+// if(score> questions.length){
+//    let percentage = (score/questions.length)*100;
+// }
 
- //priting questions
- question.innerHTML = questions[index].question
- option1.innerHTML = questions[index].option1
- option2.innerHTML = questions[index].option2
- option3.innerHTML = questions[index].option3
- index++
- }
+//  //priting questions
+//  question.innerHTML = questions[index].question
+//  option1.innerHTML = questions[index].option1
+//  option2.innerHTML = questions[index].option2
+//  option3.innerHTML = questions[index].option3
+//  index++
+//  }
  
 
+// let num2 =  10;
+
+// switch(true){
+//     case 1  : console.log("maza agayaa"); break
+//     case 2 : console.log("maza nh agaya"); break
+//     default : console.log('chutiya kat gaya'); 
+// }
+
+
+// let arr = ['banana' , 'apple' , 'orange'];
+// arr.shift()
+// console.log(arr);
