@@ -413,12 +413,29 @@
 // console.log(name1);
 
 
-// function name(){
-//     let ulList = document.getElementById('unordered');
-//     let liList = document.createElement("li");
-//     let listContent  = document.createTextNode("Muhammad Usman");
-//     liList.appendChild(listContent)
-//     ulList.appendChild(liList);
-// }
+
+    // let ulList = document.getElementById('unordered');
+    // let liList = document.createElement("li");
+    // let listContent  = document.createTextNode("Muhammad Usman");
+    // liList.appendChild(listContent)
+    // ulList.appendChild(liList);
+
+    // console.log(liList.childNodes);
+
 
 // name()
+
+// let num1 = 23;
+// let num2 = 34
+// console.log(num1+num2);
+
+
+// let name2 =  "Muhammad Usman";
+
+// let obj ={
+//     name : name2
+// }
+
+// localStorage.setItem("name" , JSON.stringify(obj))
+
+
