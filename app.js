@@ -398,3 +398,27 @@
 // let arr = ['banana' , 'apple' , 'orange'];
 // arr.shift()
 // console.log(arr);
+
+
+// const name =  true;
+// switch(true){
+//     case 1 : console.log('hello usman'); break
+//     default : console.log('bunbulaye mehman');
+// }
+
+
+// let name1  = document.createElement("p");
+// let fullNAme = document.createTextNode("Muhammad Usman");
+// name1.appendChild(fullNAme);
+// console.log(name1);
+
+
+// function name(){
+//     let ulList = document.getElementById('unordered');
+//     let liList = document.createElement("li");
+//     let listContent  = document.createTextNode("Muhammad Usman");
+//     liList.appendChild(listContent)
+//     ulList.appendChild(liList);
+// }
+
+// name()
