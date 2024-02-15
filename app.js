@@ -436,6 +436,22 @@
 //     name : name2
 // }
 
-// localStorage.setItem("name" , JSON.stringify(obj))
+// localStorage.setItem("name" , JSON.strin
+
+
+//laiba se shadi krni he 
+
+// let laiba = "Muhabbat he Usman ki"
+// let sami  = "SYED SAMI HUSSAIN";
+// let usman = "MUHAMMAD USMAN";
+// const love = sami;
+
+
+// if(laiba === love){
+//     console.log('Usman note chape ga');
+// }
+// else{
+//     console.log("Usman barbad hojayega");
+// }
 
 
