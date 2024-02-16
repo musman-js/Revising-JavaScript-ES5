@@ -455,3 +455,39 @@
 // }
 
 
+// let obj = {
+//     name :'Muhammad usman' ,
+//     age : 17,
+//     mobile : {
+//         mobName: "Tecno pova 2",
+//         color : 'black' ,
+//         future : {
+//             career : "Software Engineer",
+//             shadi : "laiba sahar"
+//         }
+//     }
+// }
+
+
+// console.log(obj.name)
+// console.log(obj.age)
+// console.log(obj.mobile.mobName)
+// console.log(obj.mobile.color)
+// console.log(obj.mobile.future.career)
+// console.log(obj.mobile.future.shadi)
+
+
+
+
+// let naba = "Laiba ko hasil krne ka tareeqa";
+// let ayaan  = "naba se shadi krne ka tareqa";
+// let nabaAge =  20;
+// let ayaanAge = 17;
+
+
+// if(nabaAge > ayaanAge){
+//     console.log("Sorry shadi nh hoskti");
+// }
+// else{
+//     console.log("Shadi hoskti he.");
+// }
