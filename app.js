@@ -491,3 +491,40 @@
 // else{
 //     console.log("Shadi hoskti he.");
 // }
+
+
+
+
+// let num1 = 34;
+// let num2 = 35;
+
+// if(num1 > num2){
+//     console.log('hello');
+// }
+// else{
+//     console.log('bye');
+// }
+
+
+
+// let sifarish =false;
+// let skills  =  true;
+// let job = sifarish && skills;
+// console.log(job);
+
+// let sifarish =false;
+// let skills  =  true;
+// let job = sifarish || skills;
+// console.log(job);
+
+// let randomNum = Math.random()*10
+// console.log(randomNum);
+
+
+// let num  = 34.34;
+// let roundOff= Math.round(num);
+// let floor  = Math.floor(num);
+// let   = Math.floor(num);
+// console.log(roundOff , floor);
+
+
