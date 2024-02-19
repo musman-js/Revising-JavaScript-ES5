@@ -528,3 +528,25 @@
 // console.log(roundOff , floor);
 
 
+// let num2 = 34;
+// let num1 = 24;
+// if(num2 === num1){
+//     console.log('Yes');
+// }
+// else{
+//     console.log('No');
+// }
+
+
+// let tableNum =  prompt("Enter Table number");
+// let tableLength = prompt("Enter Table Length");
+
+// for(let i = 1 ; i<=tableLength; i++){
+//     document.write(`${tableNum} x ${i} = ${tableNum*i}  <br>`);
+
+// }
+
+
+// let num  = 24325.324324;
+// let numToString = num.toFixed().toString();
+// console.log(numToString);
