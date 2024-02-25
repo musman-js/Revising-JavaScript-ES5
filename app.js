@@ -550,3 +550,46 @@
 // let num  = 24325.324324;
 // let numToString = num.toFixed().toString();
 // console.log(numToString);
+
+// let age = 17;
+// if(age <=18){
+//     console.log("License mil jayega");
+// }
+// else{
+//     console.log("License nh milega");
+// }
+
+
+// for(let i = 0 ; i<==10; i++){
+//     console.log(i);
+// }
+
+
+// let userInfo = prompt("Enter Your name");
+// let userAge = prompt("Enter your age");
+// let userFocus = prompt("Enter your focus");
+
+
+// let obj  = {
+//     name : userInfo,
+//     age : userAge,
+//     focus : userFocus
+// }
+
+// document.write(`User Name is : ${obj.name} <br> User age is : ${obj.age} <br> User focus is  : ${obj.focus}`);
+
+
+
+let gym  = "Body banani he";
+let parhai = "Kl se paka krni he";
+let papers =  "Allah Malik he";
+
+if(gym){
+    console.log('Bachia Down!');
+}
+else if(parhai){
+    console.log('1st year Pass');
+}
+else{
+    console.log("Fail , Future ke Lag gaye");
+}
