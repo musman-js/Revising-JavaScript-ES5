@@ -580,16 +580,40 @@
 
 
 
-let gym  = "Body banani he";
-let parhai = "Kl se paka krni he";
-let papers =  "Allah Malik he";
+// let gym  = "Body banani he";
+// let parhai = "Kl se paka krni he";
+// let papers =  "Allah Malik he";
 
-if(gym){
-    console.log('Bachia Down!');
-}
-else if(parhai){
-    console.log('1st year Pass');
-}
-else{
-    console.log("Fail , Future ke Lag gaye");
-}
+// if(gym){
+//     console.log('Bachia Down!');
+// }
+// else if(parhai){
+//     console.log('1st year Pass');
+// }
+// else{
+//     console.log("Fail , Future ke Lag gaye");
+// }
+
+
+
+// const email = "usman2037966@gmail.com";
+// const pass = "abc123";
+// const userEmail =  "usman2037966@gmail.com";
+// const userPass = "abc212";
+
+// if(userEmail === email){
+//     if(userPass === pass){
+//         console.log("Login Successful!");
+//     }
+// }
+// else{
+//     if(userEmail != email && userPass == pass){
+//         console.log("Wrong email");
+//     }
+//     else if(userPass != pass && userEmail == email  ){
+//         console.log("Wrong password");
+//     }
+//     else {
+//         console.log("Both Wrong");
+//     }
+// }
