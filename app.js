@@ -617,3 +617,23 @@
 //         console.log("Both Wrong");
 //     }
 // }
+
+
+
+// class name{
+//     constructor(){
+//         console.log("usman")
+//     }
+
+//     lovename(){
+//         console.log("laiba");
+//     }
+// }
+// // let username = new name();
+// let muhabbat  = new name().lovename()
+
+
+
+// let arr = ['karachi' , "lahore", "islamabad" , 'KPK'];
+// let[legends , jetlog,burger,beautiful ] = arr;
+// console.log(legends , burger , beautiful)
