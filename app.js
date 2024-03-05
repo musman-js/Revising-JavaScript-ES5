@@ -636,4 +636,25 @@
 
 // let arr = ['karachi' , "lahore", "islamabad" , 'KPK'];
 // let[legends , jetlog,burger,beautiful ] = arr;
-// console.log(legends , burger , beautiful)
+// console.log(legends , burger , beautiful);
+
+
+
+// let userName  = prompt("Enter Username");
+
+
+// let obj ={
+//     name : "Usman",
+//     age : 17,
+//     career : {
+//         Field : "Flutter and MERN Stack Developer",
+//         future : "Both",
+//     }
+// }
+
+// if(userName === obj.name){
+//     console.log(obj.career);
+// }
+
+
+
