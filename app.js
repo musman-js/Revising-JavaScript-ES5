@@ -657,4 +657,21 @@
 // }
 
 
+// let userAttendence = 19;
+// if(userAttendence >=20){
+//     console.log("Come to the class!");
+// }
+// else{
+//   console.log("Get out class!");
+// }
+
+
+
+// let arr = ["Monday","Tuesday","wednesday","thursday"];
+// arr.push("Saturday");
+// arr.pop();
+// arr.shift();
+// arr.unshift("Usman");
+// arr.splice(3)
+// console.log(arr);
 
