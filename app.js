@@ -675,3 +675,32 @@
 // arr.splice(3)
 // console.log(arr);
 
+
+// let obj ={
+//     name:'usman',
+//     age:17,
+//     phone: {
+//         phoneName:'tecno pova 2'
+//     }
+// }
+// console.log(obj['phone']['phoneName']);
+
+
+// **********localStorage=*************
+// const name  = 'usman';
+// const age = 17;
+// let obj = {
+//     name: name,
+//     age:age
+// }
+// console.log(obj);
+// localStorage.setItem('name', JSON.stringify(obj));
+
+
+// let age = 18;
+// if(age>=18){
+//     console.log("license milega")
+// }
+// else{
+//     console.log("license nh milega")
+// }
