@@ -704,3 +704,27 @@
 // else{
 //     console.log("license nh milega")
 // }
+
+
+// function name(){
+//      let name  = "Muhammad uSman";
+//      document.write(name);
+// }
+
+// setInterval(name,2000);
+
+
+// let obj = {
+//     productName:['apple','banana','orange'],
+//     quantity: 4
+// }
+
+// const userProductName  = 'apple';
+// if(userProductName == obj['productName'][0]){
+//    console.log("in stock");
+// }
+// else{
+//     console.log("Not in stock");
+// }
+
+
