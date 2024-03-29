@@ -436,13 +436,8 @@
 //     name : name2
 // }
 
-// localStorage.setItem("name" , JSON.strin
+// localStorage.setItem("name" , JSON.stringify);
 
-
-//laiba se shadi krni he 
-
-// let laiba = "Muhabbat he Usman ki"
-// let sami  = "SYED SAMI HUSSAIN";
 // let usman = "MUHAMMAD USMAN";
 // const love = sami;
 
@@ -463,7 +458,6 @@
 //         color : 'black' ,
 //         future : {
 //             career : "Software Engineer",
-//             shadi : "laiba sahar"
 //         }
 //     }
 // }
@@ -474,23 +468,8 @@
 // console.log(obj.mobile.mobName)
 // console.log(obj.mobile.color)
 // console.log(obj.mobile.future.career)
-// console.log(obj.mobile.future.shadi)
 
 
-
-
-// let naba = "Laiba ko hasil krne ka tareeqa";
-// let ayaan  = "naba se shadi krne ka tareqa";
-// let nabaAge =  20;
-// let ayaanAge = 17;
-
-
-// if(nabaAge > ayaanAge){
-//     console.log("Sorry shadi nh hoskti");
-// }
-// else{
-//     console.log("Shadi hoskti he.");
-// }
 
 
 
@@ -618,19 +597,6 @@
 //     }
 // }
 
-
-
-// class name{
-//     constructor(){
-//         console.log("usman")
-//     }
-
-//     lovename(){
-//         console.log("laiba");
-//     }
-// }
-// // let username = new name();
-// let muhabbat  = new name().lovename()
 
 
 
