@@ -694,3 +694,9 @@
 // }
 
 
+
+let arr = ['usman', 'ammar ', 'aayaan'];
+arr.push('konain');
+arr.pop();
+arr.unshiftshift('shamir')
+console.log(arr);
